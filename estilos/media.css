@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+@media screen and (max-width:320px) {
+    main{
+        width: 220px;
+        height: 350px;
+    }
+    main img{
+        width: 220px;
+        height: 210px;
+    }
+    .txt{
+        height: 120px;
+        margin: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    main h2{
+
+        font-weight: 900;
+        font-size: 11pt;
+        color: #1F3251;
+
+    }
+    main p{
+        color: gray;
+        font-size: 10pt;
+
+    }
+}
+
